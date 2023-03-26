@@ -57,11 +57,11 @@ export default function LoginPage() {
             <Stack spacing={4}>
               <FormControl id="email">
                 <FormLabel>Email address</FormLabel>
-                <Input value={email} onChange={(e) => setEmail(e.target.value)} type="email" />
+                <Input required value={email} onChange={(e) => setEmail(e.target.value)} type="email" />
               </FormControl>
               <FormControl id="password">
                 <FormLabel>Password</FormLabel>
-                <Input value={password} onChange={(e) => setPassword(e.target.value)} type="password" />
+                <Input required value={password} onChange={(e) => setPassword(e.target.value)} type="password" />
               </FormControl>
               <Stack spacing={10}>
                 <Stack

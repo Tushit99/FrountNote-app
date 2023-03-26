@@ -11,7 +11,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import "./style.css";
-import notebg from "../../../assets/note_bg.png";
+// import notebg from "../../../assets/note_bg.png";
 import { useDispatch } from "react-redux";
 import { deleteNotes, updateNotes } from "../../../Redux/notes/note.actions";
 import {
